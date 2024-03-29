@@ -14,7 +14,7 @@ import liftingImage from '../../assets/img/lifting-image.jpg'
 export default function Home() {
     return (
         <div className='home-body'>
-            <Header username={"Andrew"} fixed='top'/>
+            <Header username={"Andrew"} fixed='top' />
 
             <Carousel fade>
                 <Carousel.Item>
@@ -59,7 +59,15 @@ export default function Home() {
                 <p className='lead' style={{fontSize: 1.5+'em'}}>
                     There is so much potential for growth. Take the first step now.
                 </p>
-                <Button>Get Started</Button>
+                <Button className='mb-4'>Get Started</Button>
+            </Container>
+
+            <Container fluid className='text-center pt-5 bg-dark'>
+                <h1 className='display-1 text-light'>It's time for a Breakaway.</h1>
+                <p className='lead text-light' style={{fontSize: 1.5+'em'}}>
+                    There is so much potential for growth. Take the first step now.
+                </p>
+                <Button className='mb-4'>Get Started</Button>
             </Container>
 
         </div>

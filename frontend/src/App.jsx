@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Home from './components/home/Home.jsx'
+import Goals from './components/goals/Goals.jsx'
 import SignIn from './components/sign-in/SignIn.jsx'
 import SignUp from './components/sign-up/SignUp.jsx'
 import ForgotPassword from './components/forgot-password/ForgotPassword.jsx'
@@ -12,6 +13,7 @@ export default function App() {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Home />} />
+				<Route path="goals" element={<Goals />} />
 				<Route path="sign-in" element={<SignIn />} />
 				<Route path="sign-up" element={<SignUp />} />
 				<Route path="forgot-password" element={<ForgotPassword />} />
