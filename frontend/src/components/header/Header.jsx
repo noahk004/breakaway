@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import breakawayLogo from '/public/breakaway-logo.svg'
+import breakawayLogo from '/breakaway-logo.svg'
 
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'

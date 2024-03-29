@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../header/Header.jsx'
 
+import './Home.css'
+
 import Container from 'react-bootstrap/Container'
 import Carousel from 'react-bootstrap/Carousel'
 import Button from 'react-bootstrap/Button'
@@ -11,11 +13,12 @@ import liftingImage from '../../assets/img/lifting-image.jpg'
 
 export default function Home() {
     return (
-        <div>
-            <Header username={"Andrew"} />
+        <div className='home-body'>
+            <Header username={"Andrew"} fixed='top'/>
+
             <Carousel fade>
                 <Carousel.Item>
-                    <img src={libraryImage} width='100%' alt="" />
+                    <img src={libraryImage} className='cover-image' alt="" />
                     <Carousel.Caption>
                         <h1 className='display-4'>Knowledge</h1>
                         <p className='lead'>
@@ -27,7 +30,7 @@ export default function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={codingImage} width='100%' alt="" />
+                    <img src={codingImage} className='cover-image' alt="" />
                     <Carousel.Caption>
                         <h1 className='display-4'>Innovation</h1>
                         <p className='lead'>
@@ -38,7 +41,7 @@ export default function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={liftingImage} width='100%' alt="" />
+                    <img src={liftingImage} className='cover-image' alt="" />
                     <Carousel.Caption>
                         <h1 className='display-4'>Fitness</h1>
                         <p className='lead'>
@@ -50,10 +53,11 @@ export default function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+
             <Container fluid className='text-center pt-5'>
                 <h1 className='display-1'>It's time for a Breakaway.</h1>
-                <p className='lead'>
-                    There is so much potential for growth. Take the first step.
+                <p className='lead' style={{fontSize: 1.5+'em'}}>
+                    There is so much potential for growth. Take the first step now.
                 </p>
                 <Button>Get Started</Button>
             </Container>
