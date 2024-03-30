@@ -55,11 +55,17 @@ export default function Home() {
             </Carousel>
 
             <Container fluid className='text-center pt-5'>
-                <h1 className='display-1'>It's time for a Breakaway.</h1>
-                <p className='lead' style={{fontSize: 1.5+'em'}}>
-                    There is so much potential for growth. Take the first step now.
-                </p>
-                <Button className='mb-4'>Get Started</Button>
+                <h1 className='display-3'>Introducing a new way to visualize your goals.</h1>
+                <Container >
+                    <p className='lead' style={{ fontSize: 1.5+'em'}}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Viverra vitae congue eu consequat. Accumsan lacus vel facilisis volutpat est velit. Amet nisl purus in mollis. Fermentum odio eu feugiat pretium nibh ipsum consequat. At risus viverra adipiscing at in. Sem et tortor consequat id porta. Placerat duis ultricies lacus sed turpis. Nunc scelerisque viverra mauris in aliquam. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Diam maecenas ultricies mi eget. In metus vulputate eu scelerisque. Leo vel orci porta non pulvinar neque. Id volutpat lacus laoreet non curabitur gravida arcu. Augue interdum velit euismod in pellentesque massa placerat. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Pellentesque sit amet porttitor eget dolor morbi. </p>
+                </Container>
+                <h1 className='display-5'>Accountability made crystal clear.</h1>
+                <Container >
+                    <p className='lead' style={{ fontSize: 1.5+'em'}}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Viverra vitae congue eu consequat. Accumsan lacus vel facilisis volutpat est velit. Amet nisl purus in mollis. Fermentum odio eu feugiat pretium nibh ipsum consequat. At risus viverra adipiscing at in. Sem et tortor consequat id porta. Placerat duis ultricies lacus sed turpis. Nunc scelerisque viverra mauris in aliquam. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Diam maecenas ultricies mi eget. In metus vulputate eu scelerisque. Leo vel orci porta non pulvinar neque. Id volutpat lacus laoreet non curabitur gravida arcu. Augue interdum velit euismod in pellentesque massa placerat. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Pellentesque sit amet porttitor eget dolor morbi. </p>
+                </Container>
+                <Button href='/goals' className='mb-4'>Get Started</Button>
             </Container>
 
             <Container fluid className='text-center pt-5 bg-dark'>
@@ -67,7 +73,7 @@ export default function Home() {
                 <p className='lead text-light' style={{fontSize: 1.5+'em'}}>
                     There is so much potential for growth. Take the first step now.
                 </p>
-                <Button className='mb-4'>Get Started</Button>
+                <Button href='/goals' className='mb-4'>Get Started</Button>
             </Container>
 
         </div>
