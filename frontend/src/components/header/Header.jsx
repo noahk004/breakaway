@@ -12,9 +12,9 @@ export default function Header({ username }) {
             <Navbar.Brand className='d-flex'><img src={breakawayLogo} width='30px' /><div className='ps-2'>Breakaway</div></Navbar.Brand>
             <Nav>
                 <Nav.Link href='/'>Home</Nav.Link>
-                <Nav.Link href='goals'>Goals</Nav.Link>
+                <Nav.Link href='/goals'>Goals</Nav.Link>
             </Nav>
-            <Navbar.Text className='ms-2'>Signed in as: <Link to='sign-in'>{username}</Link></Navbar.Text>
+            <Navbar.Text className='ms-2'>Signed in as: <Link to='/sign-in'>{username}</Link></Navbar.Text>
         </Navbar>
     )
 }
